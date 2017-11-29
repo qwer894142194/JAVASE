@@ -36,6 +36,7 @@ public class Dog {
 	}
 	
 	public void eatBone() {
+		eatBone("我",10);
 		System.out.println("它以为它在吃骨头");
 	}
 	
