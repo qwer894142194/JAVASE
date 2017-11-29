@@ -42,6 +42,11 @@ public class Cat {
 		 *  
 		 *   
 		 */
+		public Cat() {
+			System.out.println("我是无参的构造方法");
+		}
+		
+		
 		public Cat(Person owner) {
 			//将括号中 的参数owner 的值
 			//赋值给属性的owner

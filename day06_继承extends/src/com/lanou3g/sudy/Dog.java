@@ -31,6 +31,10 @@ public class Dog {
 	 * 
 	 */
 	
+	private void eatBone(String boon,int n) {
+		System.out.println("我叫你嗲");
+	}
+	
 	public void eatBone() {
 		System.out.println("它以为它在吃骨头");
 	}
