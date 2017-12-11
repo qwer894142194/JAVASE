@@ -5,6 +5,7 @@ import com.lanou3g.Person;
 public class Main {
 		public static void main(String[] args) {
 			Sunfine sunfine  = new Sunfine();
+			Overcast overcast = new Overcast();
 			
 			sunfine.description();
 			overcast.description();
